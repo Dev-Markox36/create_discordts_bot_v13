@@ -6,7 +6,7 @@
 ## Installation
 
 npx:
-```sh
+```js
 // Si queremos que se cree una carpte en la ubicación
 npx create_discordts_bot_v13 nombre_carpeta
 // Si no queremos que se cree carpeta y se clone en la carpeta actual
