@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "allowJs": true,
+      "sourceMap": false,
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowUmdGlobalAccess": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+  },
+}

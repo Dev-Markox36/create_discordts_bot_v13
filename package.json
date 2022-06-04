@@ -1,0 +1,28 @@
+{
+  "name": "create_discord_bot_v13_ts",
+  "version": "1.0.0",
+  "description": "Advanced template of discord.js bot in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
+    "build": "tsc",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "discord.js", "typescript", "advanced", "template"],
+  "author": "Markox36",
+  "license": "ISC",
+  "dependencies": {
+    "@anishshobith/deeptype": "^1.1.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "libsodium-wrappers": "^0.7.10",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
