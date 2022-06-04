@@ -1,9 +1,6 @@
 <div align="center">
-        <font size=10> template_discordts_bot </font>
-        <br>
-        <br>
-        <strong><i> NPX TEMPLATE FOR DISCORD V13 IN TYPESCRIPT</i></strong>
-        <hr>
+<h1> TEMPLATE_DISCORDTS_BOT_V13 </h1>
+<strong><i> NPX TEMPLATE FOR DISCORD V13 IN TYPESCRIPT</i></strong>
 </div>
 
 ## Installation
@@ -18,4 +15,21 @@ npx create_discordts_bot_v13
 .env:
 ```js
 BOT_TOKEN= //fill with the token of your bot
+```
+
+.config:
+```js
+// Modify this parameter as you want
+module.exports = {
+	prefix: '!',                    // prefix of your bot
+	devs: ['403917639673577482'],   // this is for the commands in the category of dev
+	colors: {                       // Values for colors for embeds
+		default: '#00AE86', 
+		error: '#eb4034',
+	},
+	emotes: {                       // Values of emotes
+		error: '⚠️',
+		success: '✅',
+	},
+};
 ```
